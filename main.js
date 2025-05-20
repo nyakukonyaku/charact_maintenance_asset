@@ -173,7 +173,7 @@ function showOfflineMessage() {
 
 // When the window loads, fetch the JSON configuration, then build out the video/member elements in the "main" container.
 window.onload = () => {
-  fetch("https://raw.githubusercontent.com/nyakukonyaku/charact_maintenance_asset/refs/heads/main/return.json")
+  fetch("https://nyakukonyaku.github.io/charact_maintenance_asset/return.json")
     .then(response => response.json())
     .then(data => {
         console.log(data)
