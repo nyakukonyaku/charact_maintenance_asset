@@ -1,8 +1,36 @@
 {
     "live":[],
     "member":{
+        "leira.usui":{
+            "icon_url":"https://yt3.googleusercontent.com/Hdk2onKHZbzzmhve-vSpPcHsr8V7yVncjOQdJ4IQBUWYl4VOFzJLBOHmUSGQ1_GAWDp8a4Jo-BE=s160-c-k-c0x00ffffff-no-rj",
+            "color":"#F9F9F9"
+        },
+        "mana.kunugi":{
+            "icon_url":"https://yt3.googleusercontent.com/gzbIvN2IqdAUcBhUIsaCZuIpzZZZTk5p1iesKY0Wbp1BNDgdT4_m2Yx9JFgRPDPPuoYXKMXNPw=s160-c-k-c0x00ffffff-no-rj",
+            "color":"#F9F9F9"
+        },
+        "chigusa.hayanagi":{
+            "icon_url":"https://yt3.googleusercontent.com/OLgtyaIBL4WkfmODJHTnln6V_MRNP-H-LORPf7GxGulU3yEqpnbOY8tg2ucyrmaUDYnQuZhG6A=s160-c-k-c0x00ffffff-no-rj",
+            "color":"#F9F9F9"
+        },
+        "zonzon.kiyashiki":{
+            "icon_url":"https://yt3.googleusercontent.com/OLgtyaIBL4WkfmODJHTnln6V_MRNP-H-LORPf7GxGulU3yEqpnbOY8tg2ucyrmaUDYnQuZhG6A=s160-c-k-c0x00ffffff-no-rj",
+            "color":"#F9F9F9"
+        },
         "prima.merill":{
             "icon_url":"https://yt3.googleusercontent.com/PwRPbGEYeI0_ds1OW1KqzSiteZpQ97T1IJBHSMxvSCCm1BUc52LcemduVU1J3FKdtQgaZ96jz38=s160-c-k-c0x00ffffff-no-rj",
+            "color":"#F9F9F9"
+        },
+        "mogu.yamuyami":{
+            "icon_url":"https://yt3.googleusercontent.com/1PR2WeEG60Y3XbmSS1B5C8REE7JKRN8f7vw9SD_Oj-w_FOy7Z_CPAgu_E78951pltj0Fwc1AeDQ=s160-c-k-c0x00ffffff-no-rj",
+            "color":"#F9F9F9"
+        },
+        "shikino.sesera":{
+            "icon_url":"https://yt3.googleusercontent.com/vHxGWRKVQTmD44iHacEbJpaMTkj-7cxmWMkrTGeMAdvxuLM6KsH2264iW4xez8icfz3083w9rQ=s160-c-k-c0x00ffffff-no-rj",
+            "color":"#F9F9F9"
+        },
+        "santa.hiiragi":{
+            "icon_url":"https://yt3.googleusercontent.com/vHxGWRKVQTmD44iHacEbJpaMTkj-7cxmWMkrTGeMAdvxuLM6KsH2264iW4xez8icfz3083w9rQ=s160-c-k-c0x00ffffff-no-rj",
             "color":"#F9F9F9"
         }
     }
