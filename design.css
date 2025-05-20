@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Kosugi+Maru&display=swap&text=工事中...');
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video-container {
+    margin: 0% 0.5% 1% 0.5%;
+    position: relative;
+    display: block;
+    border: solid 1px #00000040;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: 1;
+    width: auto;
+    height: auto;
+}
+
+.video {
+    border: solid 0px;
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+}
+
+.mouseover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 10;
+    border-radius: 6px;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.mouseover-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.mouseover:hover {
+    opacity: 1;
+}
+
+.mouseover_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 50%;
+    height: auto;
+}
+
+.mouseover_hyperlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 50%;
+    height: 100%;
+}
+
+.icon_img {
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+    margin-left: 30%;
+}
+
+.hyperlink {
+    padding-top: 6%;
+    padding-right: 38%;
+}
+
+.video-sizing {
+    width: 50%;
+    height: 50%;
+}
+
+.offline-background{
+    display: flex;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ffffff00 5%,#81b6d5a3 50%, #ffffff00 95%);
+    align-items: center;
+    justify-content: center;
+}
+
+.offline-message{
+    position: absolute;
+    border-radius: 10px;
+    border: solid 2px #e17db6;
+    background-color: #ff99d3c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offline-string{
+    font-family: "Kosugi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+@media (orientation: landscape) {
+    .video-container {
+        width: auto !important;
+    }
+    .offline-message {
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 50%;
+    }
+    .offline-string {
+        font-size: 150%;
+    }
+}
+
+@media (orientation: portrait) {
+    .video-container {
+        width: 48% !important;
+    }
+    .offline-message {
+        top: 35%;
+        left: 5%;
+        width: 90%;
+        height: 15%;
+    }
+    .video {
+        aspect-ratio: 16 / 10;
+
+    }
+    .offline-string{
+        font-size: 100%;
+    }
+}
