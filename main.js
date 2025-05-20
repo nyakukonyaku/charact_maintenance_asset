@@ -176,6 +176,7 @@ window.onload = () => {
   fetch("https://raw.githubusercontent.com/nyakukonyaku/charact_maintenance_asset/refs/heads/main/return.json")
     .then(response => response.json())
     .then(data => {
+        console.log(data)
       const mainContainer = document.getElementById("main");
 
       // If there are live streams
